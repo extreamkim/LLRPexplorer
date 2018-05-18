@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\RFID_APPS\\LLRPexplorer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_rfid_llrp.png.flat",
+        "source": "D:\\RFID_APPS\\LLRPexplorer\\app\\src\\main\\res\\drawable-hdpi\\ic_rfid_llrp.png"
+    },
+    {
+        "merged": "D:\\RFID_APPS\\LLRPexplorer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_rfid_llrp.png.flat",
+        "source": "D:\\RFID_APPS\\LLRPexplorer\\app\\src\\main\\res\\drawable-mdpi\\ic_rfid_llrp.png"
+    },
+    {
+        "merged": "D:\\RFID_APPS\\LLRPexplorer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rfid_llrp.png.flat",
+        "source": "D:\\RFID_APPS\\LLRPexplorer\\app\\src\\main\\res\\drawable-xhdpi\\ic_rfid_llrp.png"
+    },
+    {
+        "merged": "D:\\RFID_APPS\\LLRPexplorer\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\RFID_APPS\\LLRPexplorer\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\RFID_APPS\\LLRPexplorer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_rfid_llrp.png.flat",
+        "source": "D:\\RFID_APPS\\LLRPexplorer\\app\\src\\main\\res\\drawable-xxhdpi\\ic_rfid_llrp.png"
+    }
+]

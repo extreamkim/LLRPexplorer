@@ -1,0 +1,74 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea\
+* .idea\workspace.xml
+* LICENSE
+* README.md
+* ic_launcher-web.png
+* photo_2017-03-24_15-03-04.jpg
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:26.0.0-alpha1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\jdom-2.0.6.jar => app\libs\jdom-2.0.6.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\org\apache\mina\common\package.html => app\src\main\resources\org\apache\mina\common\package.html
+* src\org\apache\mina\common\support\package.html => app\src\main\resources\org\apache\mina\common\support\package.html
+* src\org\apache\mina\filter\codec\demux\package.html => app\src\main\resources\org\apache\mina\filter\codec\demux\package.html
+* src\org\apache\mina\filter\codec\package.html => app\src\main\resources\org\apache\mina\filter\codec\package.html
+* src\org\apache\mina\filter\codec\serialization\package.html => app\src\main\resources\org\apache\mina\filter\codec\serialization\package.html
+* src\org\apache\mina\filter\codec\support\package.html => app\src\main\resources\org\apache\mina\filter\codec\support\package.html
+* src\org\apache\mina\filter\codec\textline\package.html => app\src\main\resources\org\apache\mina\filter\codec\textline\package.html
+* src\org\apache\mina\filter\executor\package.html => app\src\main\resources\org\apache\mina\filter\executor\package.html
+* src\org\apache\mina\filter\package.html => app\src\main\resources\org\apache\mina\filter\package.html
+* src\org\apache\mina\handler\chain\package.html => app\src\main\resources\org\apache\mina\handler\chain\package.html
+* src\org\apache\mina\handler\demux\package.html => app\src\main\resources\org\apache\mina\handler\demux\package.html
+* src\org\apache\mina\handler\multiton\package.html => app\src\main\resources\org\apache\mina\handler\multiton\package.html
+* src\org\apache\mina\handler\package.html => app\src\main\resources\org\apache\mina\handler\package.html
+* src\org\apache\mina\handler\support\package.html => app\src\main\resources\org\apache\mina\handler\support\package.html
+* src\org\apache\mina\management\package.html => app\src\main\resources\org\apache\mina\management\package.html
+* src\org\apache\mina\transport\socket\nio\package.html => app\src\main\resources\org\apache\mina\transport\socket\nio\package.html
+* src\org\apache\mina\transport\socket\nio\support\package.html => app\src\main\resources\org\apache\mina\transport\socket\nio\support\package.html
+* src\org\apache\mina\transport\vmpipe\package.html => app\src\main\resources\org\apache\mina\transport\vmpipe\package.html
+* src\org\apache\mina\transport\vmpipe\support\package.html => app\src\main\resources\org\apache\mina\transport\vmpipe\support\package.html
+* src\org\apache\mina\util\package.html => app\src\main\resources\org\apache\mina\util\package.html
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
